@@ -1,0 +1,521 @@
+{
+ "format": 1,
+ "generatedAt": "2026-11-19T18:44:41.096Z",
+ "revision": 1,
+ "site": {
+  "title": "Polaris 2.0 Hub",
+  "site": {
+   "tagline": "Der schnelle, aufgeräumte Client für Kirka.io – mit Studios für Crosshair, HUD und Skins, Live-Konfiguration und einer offenen Community.",
+   "intro": "Polaris startet ohne Anmeldung und ohne Splash-Screen. Lokale Funktionen laufen offline, ein Konto brauchst du nur für Cloud, Social und Community.",
+   "about": "",
+   "contactEmail": "",
+   "github": "https://github.com/JulianBa-12/Polaris-Client-2.0-Hub",
+   "discord": "",
+   "accent": "#5aa9e6",
+   "apiUrl": "",
+   "hidden": [],
+   "footer": "",
+   "supportText": "",
+   "communityText": ""
+  },
+  "pages": [
+   {
+    "id": "e_9T1zeab0xxPt",
+    "title": "About Polaris",
+    "slug": "about",
+    "nav": true,
+    "order": 1
+   }
+  ],
+  "config": {
+   "revision": 1
+  }
+ },
+ "features": {
+  "play": {
+   "label": "Play",
+   "description": "Kirka.io starten, Quick Join, Regionen und letzte Matches",
+   "category": "core",
+   "enabled": true
+  },
+  "inventory": {
+   "label": "Inventar",
+   "description": "Lokales Polaris-Inventar mit Suche, Filtern und Favoriten",
+   "category": "library",
+   "enabled": true
+  },
+  "editor": {
+   "label": "Skin Editor",
+   "description": "Pixel-Editor mit Ebenen, Verlauf und 3D-Vorschau",
+   "category": "studio",
+   "enabled": true
+  },
+  "market": {
+   "label": "Market",
+   "description": "Community-Marktplatz für Skins, Themes und Ressourcen",
+   "category": "community",
+   "enabled": true
+  },
+  "community": {
+   "label": "Community",
+   "description": "News, Freunde, Nachrichten, Creator und Feedback",
+   "category": "community",
+   "enabled": true
+  },
+  "profile": {
+   "label": "Profil",
+   "description": "Konto, Profil-Showcase, Analytics, Replays und Screenshots",
+   "category": "data",
+   "enabled": true
+  },
+  "leaderboard": {
+   "label": "Leaderboard",
+   "description": "Polaris-Rangliste und persönliche Rekorde",
+   "category": "community",
+   "enabled": true
+  },
+  "settings": {
+   "label": "Einstellungen",
+   "description": "Alle Client-Einstellungen",
+   "category": "system",
+   "enabled": true
+  }
+ },
+ "links": {
+  "hub": "https://julianba-12.github.io/Polaris-Client-2.0-Hub/",
+  "kirka": "https://kirka.io"
+ },
+ "entities": {
+  "news": [
+   {
+    "id": "e_HffSqUtHbpcu",
+    "kind": "news",
+    "title": "Polaris Client 2.0 ist da",
+    "status": "published",
+    "featured": true,
+    "visibility": "public",
+    "data": {
+     "body": "Polaris Client 2.0, Polaris Owner 2 und der Community Hub sind ab sofort verfügbar. Der Client startet ohne Anmeldung, alle lokalen Funktionen laufen offline."
+    },
+    "createdAt": "2026-11-19T18:44:40.856Z",
+    "updatedAt": "2026-11-19T18:44:40.856Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "announcement": [
+   {
+    "id": "e_BGYB4DFG-kZk",
+    "kind": "announcement",
+    "title": "Community Hub eröffnet",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "body": "Teile Skins, Crosshair-Presets, HUD-Layouts und Themes in der Creator Gallery.",
+     "level": "info"
+    },
+    "createdAt": "2026-11-19T18:44:40.857Z",
+    "updatedAt": "2026-11-19T18:44:40.857Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "changelog": [
+   {
+    "id": "e_S08n_hm5JCwf",
+    "kind": "changelog",
+    "title": "2.0.0",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "version": "2.0.0",
+     "body": "- Neue Oberfläche mit neun Bereichen (Play, Inventar, Skin Editor, Market, Community, Profil, Leaderboard, Einstellungen, Owner Panel)\n- FPS-Limiter, Smart Profiles und HUD-Editor\n- Owner: eigene Rechte pro Nutzer und Profil-Styles"
+    },
+    "createdAt": "2026-11-19T18:44:40.864Z",
+    "updatedAt": "2026-11-19T18:44:40.864Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "featured": [],
+  "help": [
+   {
+    "id": "e_ldOGdfumzlw5",
+    "kind": "help",
+    "title": "Brauche ich ein Konto?",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "body": "Nein. Spielen und alle lokalen Funktionen gehen im Gastmodus. Ein Konto ist nur für Online-Funktionen nötig."
+    },
+    "createdAt": "2026-11-19T18:44:40.882Z",
+    "updatedAt": "2026-11-19T18:44:40.882Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   },
+   {
+    "id": "e_e4vj4o0jOz8x",
+    "kind": "help",
+    "title": "Polaris startet nicht",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "body": "Prüfe, ob die Datei ausführbar ist (`chmod +x`). Ohne FUSE hilft `--appimage-extract-and-run`. Im Terminal gestartet zeigt Polaris eine verständliche Fehlermeldung; das Log liegt unter `~/.config/Polaris Client 2/logs`."
+    },
+    "createdAt": "2026-11-19T18:44:40.881Z",
+    "updatedAt": "2026-11-19T18:44:40.881Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   },
+   {
+    "id": "e_QNk9Kru7Jw-s",
+    "kind": "help",
+    "title": "Erste Schritte",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "body": "Öffne „Play“ und starte Kirka.io. Mit F1 wechselst du aus dem Spiel zurück ins Polaris-Menü. Strg+K öffnet das Command Center."
+    },
+    "createdAt": "2026-11-19T18:44:40.864Z",
+    "updatedAt": "2026-11-19T18:44:40.864Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "tutorial": [
+   {
+    "id": "e_q7pQ19bEe4Yb",
+    "kind": "tutorial",
+    "title": "Eigenes Fadenkreuz erstellen",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "body": "1. Crosshair Studio öffnen\n2. Form, Farbe und Größe wählen\n3. Als Preset speichern\n4. Im Spiel erscheint es sofort als Overlay."
+    },
+    "createdAt": "2026-11-19T18:44:40.864Z",
+    "updatedAt": "2026-11-19T18:44:40.864Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "docs": [
+   {
+    "id": "e_82GlUBnKoGjx",
+    "kind": "docs",
+    "title": "Kirka.io-Daten und Grenzen",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "category": "Start",
+     "order": 3,
+     "body": "Kirka.io stellt keine öffentliche API für Statistiken, Inventar oder Replays bereit. Polaris erfindet deshalb keine Spieldaten:\n\n- **Match Analytics** und **Inventory** arbeiten mit Werten, die du selbst erfasst\n- **Replay Studio** nimmt den Bildschirm lokal auf\n- **Map Studio** ist ein visueller Filter, keine Veränderung der Spielwelt\n\nPolaris enthält keine Cheats, Aimbots, Wallhacks, Exploits oder Anti-Cheat-Umgehungen."
+    },
+    "createdAt": "2026-11-19T18:44:40.881Z",
+    "updatedAt": "2026-11-19T18:44:40.881Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   },
+   {
+    "id": "e_8c1XhaWUH7AD",
+    "kind": "docs",
+    "title": "Update Center",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "category": "Client",
+     "order": 10,
+     "body": "Der Client prüft veröffentlichte Releases für deinen Kanal (stable oder beta). Jede Datei wird vor der Installation per **SHA-256** geprüft. Die vorherige Version bleibt erhalten und kann im Update Center wiederhergestellt werden (Rollback)."
+    },
+    "createdAt": "2026-11-19T18:44:40.881Z",
+    "updatedAt": "2026-11-19T18:44:40.881Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   },
+   {
+    "id": "e_Jjfw5h-7L18g",
+    "kind": "docs",
+    "title": "Installation unter Linux",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "category": "Start",
+     "order": 1,
+     "body": "1. `Polaris-Client-2.AppImage` herunterladen\n2. Ausführbar machen: `chmod +x Polaris-Client-2.AppImage`\n3. Starten (Doppelklick oder `./Polaris-Client-2.AppImage`)\n\nFehlt FUSE auf deinem System, starte mit `./Polaris-Client-2.AppImage --appimage-extract-and-run`. Einstellungen und lokale Daten liegen unter `~/.config/Polaris Client 2`."
+    },
+    "createdAt": "2026-11-19T18:44:40.880Z",
+    "updatedAt": "2026-11-19T18:44:40.880Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   },
+   {
+    "id": "e_Ookwuzaui7KB",
+    "kind": "docs",
+    "title": "Konto, Gastmodus und Datenschutz",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "category": "Start",
+     "order": 2,
+     "body": "Polaris startet im **Gastmodus**. Alle lokalen Studios, Profile, Aufnahmen und Backups funktionieren ohne Konto und offline.\n\nEin Polaris-Konto brauchst du nur für Cloud-Backups, Social, Bewertungen und Einreichungen. Nach der ersten Anmeldung bleibt die Sitzung gespeichert – es gibt keine wiederholten Login-Abfragen. Unter **Settings → Account & Privacy** kannst du Sitzungen beenden, Daten exportieren und dein Konto löschen."
+    },
+    "createdAt": "2026-11-19T18:44:40.880Z",
+    "updatedAt": "2026-11-19T18:44:40.880Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   },
+   {
+    "id": "e_LCNHW_gitHth",
+    "kind": "docs",
+    "title": "Plugin-API",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "body": "Plugins laufen in einem isolierten Sandbox-Frame. Verfügbare Aufrufe: polaris.notify(text), polaris.storage.get/set, polaris.overlay.setText(text), polaris.onEvent(name, cb). Jede Funktion benötigt die passende Berechtigung im Manifest."
+    },
+    "createdAt": "2026-11-19T18:44:40.869Z",
+    "updatedAt": "2026-11-19T18:44:40.869Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "guide": [
+   {
+    "id": "e_pn274FyfCiPw",
+    "kind": "guide",
+    "title": "Backups und Profile umziehen",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "category": "Client",
+     "body": "Unter **Backup Vault** erstellst du ein vollständiges Backup deiner Einstellungen, Presets und Profile. Die Datei kannst du auf einem anderen Rechner wiederherstellen – Polaris prüft vorher die Integrität."
+    },
+    "createdAt": "2026-11-19T18:44:40.882Z",
+    "updatedAt": "2026-11-19T18:44:40.882Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   },
+   {
+    "id": "e_HdhwupaSDpiF",
+    "kind": "guide",
+    "title": "Performance auf schwacher Hardware",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "body": "Aktiviere den Low-Performance-Modus im Performance Center. Er reduziert die Render-Auflösung auf 75 % und deaktiviert Overlay-Animationen. Nach dem Neustart des Clients aktiv."
+    },
+    "createdAt": "2026-11-19T18:44:40.870Z",
+    "updatedAt": "2026-11-19T18:44:40.870Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "page": [
+   {
+    "id": "e_9T1zeab0xxPt",
+    "kind": "page",
+    "title": "About Polaris",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "slug": "about",
+     "order": 1,
+     "body": "Polaris ist ein Client-Ökosystem für Kirka.io: ein schneller Client für alle Spieler, eine private Owner-Anwendung zur Verwaltung und dieser Community Hub."
+    },
+    "createdAt": "2026-11-19T18:44:40.874Z",
+    "updatedAt": "2026-11-19T18:44:40.874Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "download": [],
+  "gallery": [
+   {
+    "id": "e_2wqyIk0SPEQm",
+    "kind": "gallery",
+    "title": "Polaris Classic Crosshair",
+    "status": "published",
+    "featured": true,
+    "visibility": "public",
+    "data": {
+     "type": "crosshair",
+     "description": "Schlichtes Kreuz mit Punkt",
+     "payload": {
+      "shape": "cross-dot",
+      "color": "#5aa9e6",
+      "size": 8,
+      "thickness": 2,
+      "gap": 4,
+      "dot": true,
+      "outline": true,
+      "outlineColor": "#000000",
+      "opacity": 1
+     }
+    },
+    "createdAt": "2026-11-19T18:44:40.879Z",
+    "updatedAt": "2026-11-19T18:44:40.879Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   },
+   {
+    "id": "e_K4t6A-WBucG_",
+    "kind": "gallery",
+    "title": "Minimal HUD",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "type": "hud",
+     "description": "Nur FPS und Uhr, oben rechts",
+     "payload": {
+      "widgets": {
+       "fps": {
+        "visible": true,
+        "x": 92,
+        "y": 2,
+        "scale": 1,
+        "color": "#d9dde3",
+        "opacity": 0.9
+       },
+       "clock": {
+        "visible": true,
+        "x": 84,
+        "y": 2,
+        "scale": 1,
+        "color": "#d9dde3",
+        "opacity": 0.9
+       }
+      }
+     }
+    },
+    "createdAt": "2026-11-19T18:44:40.879Z",
+    "updatedAt": "2026-11-19T18:44:40.879Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "resource": [],
+  "theme": [],
+  "plugin": [
+   {
+    "id": "e_flm5PeGabPGu",
+    "kind": "plugin",
+    "title": "Session Reminder",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "version": "1.0.0",
+     "description": "Erinnert nach einer einstellbaren Spielzeit an eine Pause.",
+     "permissions": [
+      "notify",
+      "events",
+      "storage"
+     ],
+     "polaris": ">=1.0.0",
+     "author": "Polaris",
+     "code": "let minutes = 60;\npolaris.storage.get('minutes').then(v => { if (v) minutes = v; });\npolaris.onEvent('game:start', () => { setTimeout(() => polaris.notify('Du spielst seit ' + minutes + ' Minuten – Zeit für eine Pause.'), minutes * 60000); });\npolaris.notify('Session Reminder aktiv');"
+    },
+    "createdAt": "2026-11-19T18:44:40.879Z",
+    "updatedAt": "2026-11-19T18:44:40.879Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "marketplace": [
+   {
+    "id": "e_hPL1F2fjjjbc",
+    "kind": "marketplace",
+    "title": "Kirka-Shop (extern)",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "data": {
+     "type": "skin",
+     "external": true,
+     "url": "https://kirka.io",
+     "description": "Käufe von Kirka-Items erfolgen ausschließlich im offiziellen Kirka.io-Shop. Polaris verkauft keine Kirka-Items.",
+     "price": 0
+    },
+    "createdAt": "2026-11-19T18:44:40.885Z",
+    "updatedAt": "2026-11-19T18:44:40.885Z",
+    "author": null,
+    "rating": null,
+    "ratingCount": 0,
+    "favorites": 0,
+    "downloads": 0
+   }
+  ],
+  "bug": [],
+  "suggestion": []
+ },
+ "profiles": [],
+ "releases": []
+}
