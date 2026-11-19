@@ -221,7 +221,7 @@ P.home = (root) => {
         h('div', h('span.muted', 'Funktionen'), h('b', featCount ? featCount + ' Module' : '–')),
         h('div', h('span.muted', 'Galerie'), h('b', String(ents('gallery').length + ents('resource').length + ents('theme').length) + ' Einträge')),
         h('div', h('span.muted', 'Plugins'), h('b', String(ents('plugin').length))),
-        h('div', h('span.muted', 'Plattform'), h('b', 'Linux (AppImage)')),
+        h('div', h('span.muted', 'Plattform'), h('b', 'Windows · Linux · macOS')),
         h('div', h('span.muted', 'Datenstand'), h('b', S.live ? 'live' : fmtDate(S.data.generatedAt))))),
     featured.length ? h('section.sec', h('div.sech', h('h2', 'Empfohlen')), h('div.grid', featured.map((e) => e.kind === 'featured' ? featuredCard(e) : card(e)))) : null,
     h('div.cols2',
@@ -369,7 +369,7 @@ P.downloads = (root) => {
     h('span.lm', r.fileUrl ? h('a.btn.sm.pri', { href: r.fileUrl, rel: 'noopener noreferrer' }, 'Download' + (r.size ? ' · ' + fmtSize(r.size) : '')) : h('span', 'Datei nur im Client-Update-Center'))))) : empty('Noch kein Release veröffentlicht.')));
   if (dl.length) root.append(h('section.sec', h('h2', 'Weitere Downloads'), h('div.list', dl.map((e) => h('div.li', h('div', h('div.lt', e.title, e.data.version ? ' ' + e.data.version : ''), e.data.description ? h('div.ld', String(e.data.description).slice(0, 160)) : null, e.data.sha256 ? h('div.ld.mono', 'SHA-256 ' + e.data.sha256) : null),
     h('span.lm', safeUrl(e.data.url) ? h('a.btn.sm', { href: e.data.url, rel: 'noopener noreferrer' }, 'Download' + (e.data.size ? ' · ' + fmtSize(e.data.size) : '')) : null))))));
-  root.append(h('div.box.hint', 'Installation unter Linux: Datei herunterladen, mit ', h('code', 'chmod +x Polaris-Client.AppImage'), ' ausführbar machen und starten. Fehlt auf deinem System FUSE, starte mit ', h('code', '--appimage-extract-and-run'), '.'));
+  root.append(h('div.box.hint', 'Installation unter Linux: Datei herunterladen, mit ', h('code', 'chmod +x Polaris-Client-2-*.AppImage'), ' ausführbar machen und starten. Fehlt auf deinem System FUSE, starte mit ', h('code', '--appimage-extract-and-run'), '.'));
 };
 P.p = (root, [, slug]) => {
   const pg = ents('page').find((p) => p.data.slug === decodeURIComponent(slug || ''));
